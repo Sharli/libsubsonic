@@ -1,0 +1,23 @@
+This file has documentation on the packed binary format of Adobe Shockwave resources.
+
+The information in this file is largely based on documentation included in
+  https://github.com/eriksoe/Schockabsorber/
+as well as additional testing and reverse engineering
+
+Because of the apocryphal nature of data retrieved through reverse engineering,
+any information included here is non-authoritative and is likely partially wrong.
+
+# Shockwave magic number
+All Shockwave resources begin with the bytes: 0x58 0x46 0x49 0x52 (0x52494658)
+
+# Endianness
+The byte order within Shockwave resources is little endian.
+
+# Extension: .dcr
+[todo]
+
+# Extension: .cct
+[todo]
+
+# Extension: .cst
+[todo]
