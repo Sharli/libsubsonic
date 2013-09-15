@@ -12,6 +12,7 @@
 *.dylib
 
 # Executables
+src/subsonic
 *.exe
 *.out
 *.app
