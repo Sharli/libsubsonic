@@ -5,5 +5,6 @@ all:
 
 clean:
 	make -C src clean
+	-rm -f bin/subsonic
 
 
